@@ -26,3 +26,11 @@ body {
 .margin-top-100 {
   margin-top: 100px;
 }
+
+.rounded-image-oval {
+  border-radius: 50%;
+}
+
+.rounded-image-default {
+  border-radius: 10px;
+}
