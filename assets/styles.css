@@ -29,6 +29,17 @@ body {
 }
 
 footer i {
-  font-size: 2.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
+}
+
+footer ul {
+  margin: 0;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
 }
