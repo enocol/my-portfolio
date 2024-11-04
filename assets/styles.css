@@ -64,3 +64,13 @@ footer p {
   padding: 10px;
   text-align: center;
 }
+
+.fixed-width-300 {
+  width: 100%;
+}
+
+.gray-text {
+  color: #000;
+  background-color: goldenrod;
+  padding: 10px;
+}
