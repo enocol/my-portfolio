@@ -15,7 +15,7 @@
     <meta name="author" content="Enoh Collins" />
     <meta name="language" content="English" />
     <title>Enoh's Portfolio</title>
-    <link rel="stylesheet" href="../styles.css" />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -29,14 +29,10 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="../styles.css" />
   </head>
-  <body>
-    <div class="container-fluid">
+  <body class="bg-secondary bg-gradient">
+    <div class="container-fluid photo">
       <header class="position-fixed">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
@@ -80,7 +76,7 @@
         </nav>
       </header>
 
-      <main class="margin-top-50 bg-secondary bg-gradient">
+      <main class="margin-top-50 margin-bottom-50">
         <section
           class="hero blue-background border-radius-top m-2 p-4 margin-top-100 width-100"
         >
@@ -92,63 +88,68 @@
             <div>
               <hr class="border border-danger border-2 opacity-50 w-100" />
             </div>
-          </div>
-          <div
-            class="container d-flex justify-content-around align-items-center gap-2 flex-wrap"
-          >
-            <div class="card" style="width: 18rem">
-              <img src="../images/html.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">HTML5</h5>
-                <p class="card-text gray-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
 
-            <div class="card" style="width: 18rem">
-              <img
-                src="../images/css3-512.png"
-                class="card-img-top fixed-width-300"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">CSS3</h5>
-                <p class="cart-text gray-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+            <div
+              class="container d-flex justify-content-around align-items-center gap-2 flex-wrap"
+            >
+              <div class="card" style="width: 18rem">
+                <img src="../images/html.png" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title badge text-bg-primary">HTML5</h5>
+                  <p class="card-text gray-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
-            </div>
 
-            <div class="card" style="width: 18rem">
-              <img
-                src="../images/javascript.png"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">JavaScript</h5>
-                <p class="card-text gray-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="card" style="width: 18rem">
+                <img
+                  src="../images/css3-512.png"
+                  class="card-img-top fixed-width-300"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">CSS3</h5>
+                  <p class="cart-text gray-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
-            </div>
 
-            <div class="card" style="width: 18rem">
-              <img src="../images/Python.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">PYTHON 3</h5>
-                <p class="card-text gray-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+              <div class="card" style="width: 18rem">
+                <img
+                  src="../images/javascript.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">JavaScript</h5>
+                  <p class="card-text gray-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+
+              <div class="card" style="width: 18rem">
+                <img
+                  src="../images/Python.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">PYTHON 3</h5>
+                  <p class="card-text gray-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
               </div>
             </div>
           </div>
@@ -188,5 +189,10 @@
         </div>
       </footer>
     </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
