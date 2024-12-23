@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.current {
+  border-bottom: 2px solid red;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+/* fixed header */
+.position-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: gray;
+}
+
+/* General Styles */
+
+h1 {
+  color: goldenrod;
+  background-color: #000;
+  text-transform: capitalize;
+  padding: 10px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.margin-bottom-100 {
+  margin-bottom: 100px;
+}
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+
+.small-margin-top {
+  margin-top: 10px;
+}
+
+.small-margin-bottom {
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #000;
+}
+hr {
+  border: 1px solid #fff;
+  width: 50px;
+  color: #fff;
+}
+
+.image-size-medium {
+  width: 300px;
+  height: 300px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.Hero-image {
+  background-image: url("../images/bg-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact-image {
+  border-radius: 5px;
+}
+.bg-image {
+  background-image: url("../images/bg-index.webp");
+  background-repeat: no-repeat;
+}
+
+/* footer styles */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-height: 75px;
+}
+
+footer i {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+footer ul {
+  margin: 0;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.fixed-width-300 {
+  width: 100%;
+}
+
+.gray-text {
+  color: #000;
+  background-color: goldenrod;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.height-100 {
+  height: 100vh;
+}
+/* media query to set card height for screens above 768px */
+
+@media screen and (min-width: 768px) {
+  .card {
+    min-height: 500px;
+  }
+
+  .card .card-text {
+    min-height: 200px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg-image {
+    background-size: 100% 2000px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bg-image {
+    background-size: 100% 2000px;
+  }
+}
