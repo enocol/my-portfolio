@@ -85,6 +85,7 @@ hr {
   text-align: center;
 }
 
+/* styles for images */
 .Hero-image {
   background-image: url("../images/bg-image.jpg");
   background-size: cover;
@@ -155,6 +156,10 @@ footer p {
 @media screen and (max-width: 768px) {
   .bg-image {
     background-size: 100% 2000px;
+  }
+
+  .card {
+    min-height: 200px;
   }
 }
 
