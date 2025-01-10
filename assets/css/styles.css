@@ -141,6 +141,10 @@ footer p {
 .height-100 {
   height: 100vh;
 }
+
+.red {
+  color: red;
+}
 /* media query to set card height for screens above 768px */
 
 @media screen and (min-width: 768px) {
