@@ -113,6 +113,7 @@ Features which could be implemented in the future:
 
 - Code Institute LMS.
 - Google (images)
+- Bootstrap for responsiveness
 
 ### Author
 
