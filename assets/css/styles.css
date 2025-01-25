@@ -145,6 +145,11 @@ footer p {
 .red {
   color: red;
 }
+
+.video {
+  width: 100%;
+  height: 400px;
+}
 /* media query to set card height for screens above 768px */
 
 @media screen and (min-width: 768px) {
