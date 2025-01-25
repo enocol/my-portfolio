@@ -3,7 +3,7 @@
 View live project here:
 https://enocol.github.io/my-portfolio/
 
-Welcome to my portfolio website. The website aims to showcase a software developer's skills and interest to potential recruiters. T
+Welcome to my portfolio website. The website aims to showcase a software developer's skills and interest to potential recruiters.
 
 <div style="text-align:center">
 <img src="./assets/images/home page.png" alt="portfolio website">
@@ -25,9 +25,9 @@ Welcome to my portfolio website. The website aims to showcase a software develop
 As a user, I want to:
 
 - Access the portfolio website seamlessly across various devices including desktops, laptops, tablets, and mobile phones.
-- See the navigation bar contain clear and descriptive menu items that represent different that can be used to go from one page to another
+- See the navigation bar contain clear and descriptive menu items that represent different pages that can be used to go from one page to another
 - Experience a consistent layout and design across all pages of the website, including the navigation bar's position, styling, and behavior.
-- View a home page that carried information about the software deloper
+- View a home page that carries information about the software deloper
 - View the skills or tech stack of the software developer
 - View the employment history of the software developer
 - Be able to use a form to contact the softeware developer
@@ -91,6 +91,7 @@ Colors ( white and black and sky blue ) are chosen for a clean and simple websit
 | Navbar Tech Stack      | Link clicked            | When clicked goes to the teck stack page    | Worked as expected |
 | NavBar Employment Link | Employment link clicked | When clicked it should go to employemt page | Worked as expected |
 | Navbar Contact link    | Contact link clicked    | Get taken to contact page                   | Worked as expected |
+| Page Resposiveness     | Change screen size      | To fix nicely on different screen sizes     | Worked as expected |
 
 ## Deployment
 
