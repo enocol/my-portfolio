@@ -156,7 +156,7 @@ footer p {
     min-height: 200px;
   }
 }
-
+/* media query to adjust bg image when screen size is below 768px */
 @media screen and (max-width: 768px) {
   .bg-image {
     background-size: 100% 2000px;
