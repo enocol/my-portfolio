@@ -36,24 +36,24 @@ As a user, I want to:
 
 - Responsive bootstrap navigation bar
   <div style="display: flex;">
-    <img src="./assets/images/NabBar.png" alt="nav bar" style="width: 50%;">
+    <img src="./assets/images/navBar.png" alt="nav bar" style="width: 50%;">
   </div>
 - Responsive landing page / home page
   <div style="display: flex;">
-    <img src="./assets/images/home page.png" alt="nav bar" style="width: 50%;margin-top: 10px ">
+    <img src="./assets/images/home-page.png" alt="nav bar" style="width: 50%;margin-top: 10px ">
   </div>
 - Responsive pages for employment history, tech stack page and contact page
 
   <div style="display: flex;">
-      <img src="./assets/images/tech stack.png" alt="tech stack" style="width: 50%; margin-top: 10px">
+      <img src="./assets/images/tech-stack.png" alt="tech stack" style="width: 50%; margin-top: 10px">
   </div>
 
   <div style="display: flex;">
-      <img src="./assets/images/employment history.png" alt="employment history" style="width: 50%;margin-top: 10px ">
+      <img src="./assets/images/employment-history.png" alt="employment history" style="width: 50%;margin-top: 10px ">
   </div>
 
   <div style="display: flex;">
-      <img src="./assets/images/contact page.png" alt="contact page" style="width: 50%; margin-top: 10px; margin-bottom: 10px">
+      <img src="./assets/images/contact-page.png" alt="contact page" style="width: 50%; margin-top: 10px; margin-bottom: 10px">
   </div>
 
 - Responsive footer
@@ -92,14 +92,52 @@ Colors ( white and black and sky blue ) are chosen for a clean and simple websit
 | NavBar Employment Link | Employment link clicked | When clicked it should go to employemt page | Worked as expected |
 | Navbar Contact link    | Contact link clicked    | Get taken to contact page                   | Worked as expected |
 | Page Resposiveness     | Change screen size      | To fix nicely on different screen sizes     | Worked as expected |
+| Video                  | Play button clicked     | Video should play                           | worked as expected |
+| Home page              | Load / reloads          | Should load without errors                  | Worked as expected |
+
+## HTML and CSS Validate
+
+- HTML Validation
+
+  <div style="display: flex;">
+    <img src="./assets/images/html-validation.png" alt="html validation image" style="width: 50%;">
+  </div>
+
+- CSS Validation
+  <div style="display: flex;">
+  <img src="./assets/images/css-validation.png" alt="css validation image" style="width: 50%;">
+</div>
+
+## How to run this project
+
+Requirement
+
+- Visual studio code or any other IDE
+- Install Live server extension
+
+Steps
+
+- clone this repository to you local computer
+  - Create a folder on you computer to clone the files into
+  - On the command line, change to the folder you have created
+- On you local terminal or command line
+  - run git clone https://github.com/enocol/my-portfolio.git
+  - run cd to my-portfolio
+  - run code . (the project will be opened in visual studio code)
+- Locate the index.html file on the explorer
+- Right click and select open with live server
 
 ## Deployment
 
 To deploy this page to github page from its repository, the following steps were taken:
 
-- Click on settings in the github repo
-- On the left hand site click on pages
-- Select the source and branch you want to deploy from
+## Enable GitHub Pages
+
+- Go to your repository on GitHub.
+- Click Settings → Pages (left sidebar).
+- Under "Build and deployment", select Deploy from a branch.
+- Under Branch, choose main (or gh-pages if using a separate branch).
+- Click Save.
 
 ## Future Features
 
