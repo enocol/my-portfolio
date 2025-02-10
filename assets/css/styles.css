@@ -150,6 +150,7 @@ footer p {
   width: 100%;
   height: 400px;
 }
+
 /* media query to set card height for screens above 768px */
 
 @media screen and (min-width: 768px) {
@@ -168,12 +169,16 @@ footer p {
   }
 
   .card {
-    min-height: 200px;
+    min-height: 300px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .bg-image {
     background-size: 100% 2000px;
+  }
+
+  .card {
+    min-height: 350px;
   }
 }

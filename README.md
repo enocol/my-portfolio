@@ -36,7 +36,7 @@ As a user, I want to:
 
 - Responsive bootstrap navigation bar
   <div style="display: flex;">
-    <img src="./assets/images/navBar.png" alt="nav bar" style="width: 50%;">
+    <img src="./assets/images/navbar.png" alt="nav bar" style="width: 50%;">
   </div>
 - Responsive landing page / home page
   <div style="display: flex;">
