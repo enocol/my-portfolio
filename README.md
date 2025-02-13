@@ -6,7 +6,7 @@ https://enocol.github.io/my-portfolio/
 Welcome to my portfolio website. The website aims to showcase a software developer's skills and interest to potential recruiters.
 
 <div style="text-align:center">
-<img src="./assets/images/home page.png" alt="portfolio website">
+<img src="./assets/images/home-page.png" alt="portfolio website">
 </div>
 
 ## Index
